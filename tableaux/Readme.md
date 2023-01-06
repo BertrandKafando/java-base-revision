@@ -1,7 +1,9 @@
 # Revision les tableaux java
 
 ```
-En Java, un tableau (tableau) est une structure de données contenant un groupe d'éléments tous du même type, avec des adresses consécutives sur la mémoire (memory). Le tableau a le nombre fixé d'éléments et vous ne pouvez pas changer sa taille.
+En Java, un tableau (tableau) est une structure de données contenant un groupe d'éléments tous du même
+type, avec des adresses consécutives sur la mémoire (memory). Le tableau a le nombre fixé d'éléments et
+vous ne pouvez pas changer sa taille.
 ```
 
 <br>
