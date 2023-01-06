@@ -1,5 +1,9 @@
 class Tableau {
     public static void main(String[] args) {
-      System.out.println("Hello World!");
+        double tab [] = new double[10];
+        tab[0] = 1.0;
+      System.out.println("tab [0] = " + tab[2]);
+      System.out.println(tab.length);
+
     }
 }
