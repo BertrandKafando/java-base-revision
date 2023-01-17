@@ -1,7 +1,7 @@
-# Design Pattern
+### Design Pattern
 
 ```
-
+description des solutions récurrentes  à des problèmes  communs dans des types de solutions.
 
 +sieurs regroupé en 03 types :
 > création,
@@ -49,7 +49,7 @@ Strategy, Observer, Iterator
 ```
 02 manières de reutilisé les classes:
 
-instaciation (relation entre objets) et heritage (relation entre classe)
+composition/instanciation (relation entre objets) et heritage (relation entre classe -couplage fort)
 
 ```
 

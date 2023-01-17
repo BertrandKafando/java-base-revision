@@ -84,3 +84,15 @@ les classes peuvent implementées plusieurs.
 ```
 
 
+## Pourquoi la POO
+
+```
+Pour faciliter la reutilisation des codes
+Créer des applications faciles à maintenir - FM 
+Créer des applications performantes
+Créer des applications securisées   - encap
+Créer des app distribuées
+
+Separer les aspects 
+
+```
