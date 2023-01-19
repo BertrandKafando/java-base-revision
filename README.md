@@ -12,4 +12,6 @@ public class NomClass {
 1-> compile javac NomClass.java --jdk compile en Byte code
 2-> excécuter java NomClass     -- JVM interprète
 
+Write Once Run EveryWherew !
+
 ```
