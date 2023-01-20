@@ -31,4 +31,11 @@ parcourir:
  boucle for;
  foreach...
  
-``
+```
+
+##  Loop 
+
+> For () programmation sequential - rapide
+
+
+> Foreach () fonctionnel(à partir de java 8) multithread   +rapide

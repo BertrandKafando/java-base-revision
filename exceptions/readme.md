@@ -13,11 +13,11 @@ flux normal des instructions du programme.
 ## Error vs Exeptions
 
 ```
-Ces objets appartiennent à des classes qui étendent toutes, directement ou indirectement, la classe Throwable (package java.lang). Cette classe est immédiatement étendue par trois autres classes :
+Ces objets appartiennent à des classes qui étendent toutes, directement ou indirectement, la classe Throwable (package java.lang). Cette classe est immédiatement étendue par 2 autres classes :
 
-    Exception
-    RuntimeException   - ArithmeticException
-    Error  -OutOfMemoryError
+    Exception -ext  RuntimeException   - ArithmeticException (Se produit au niveau de l'application)
+   
+    Error  -OutOfMemoryError  (s'est produit au niveau de la JVM )
 
 
 La différence entre une erreur et une exception en Java est :
@@ -34,9 +34,23 @@ surveillés (obligé de traiter): Exception
 >trow 
 
 Non surveillées:  RuntimeException + Error
+le compilateur n'indique qu'il y'a une exception à cath
+
+
 
 ```
 
+## Gestion des exceptions
+
+
+```
+> si on fait le catch de l'exception, l'excecution du programme n'est pas arreté.
+
+> Par contre si l'exception atteint la JVM l'excecution est arreté.
+
+> Dans une application, dans les services on fait le throw et c'est dans les controllers qu'on catch les   exceptions et elles seront par la suite envoyée à l'interface utilisateur
+
+```
 
 ## Exception personnalisée
 
